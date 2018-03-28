@@ -32,7 +32,8 @@ module Tcramer
          (          '  |'        ( __= ___..-._ ( (.\\
          ('\\      .___ ___.      /'.___=          \\.\\.\\
          \\\\\\-..____________..-''
-    }
+    },
+    %(It's not just good; it's good ENOUGH.)
   ].freeze
 
   def self.manage
