@@ -24,6 +24,9 @@ module Tcramer
     'That was an interesting choice.',
     'APIs! APIs! APIs!',
     'The reward for good work is more work.',
+    'HelloooOOOOOooooo',
+    'Okay, but if you did want to talk about it, what do you think about X?',
+    "We could do less ... but then we wouldn't get to do the fun stuff.",
     %{
                    __ ___'
                  .'. -- . '.
