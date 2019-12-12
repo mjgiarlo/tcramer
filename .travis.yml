@@ -1,0 +1,17 @@
+language: ruby
+sudo: false
+dist: trusty
+
+cache:
+  bundler: true
+
+before_install:
+  - gem update --system
+  - gem install bundler
+
+rvm:
+  - 2.5.0
+
+env:
+  global:
+    - ENGINE_CART_RAILS_OPTIONS='--skip-git --skip-bundle --skip-listen --skip-spring --skip-yarn --skip-keeps --skip-action-cable --skip-coffee --skip-puma --skip-test'

@@ -1,5 +1,10 @@
+# frozen_string_literal: true
+
+require 'rails'
+
 module Tcramer
-  class Engine < ::Rails::Engine
+  # Vroom, vrooooooom!
+  class Engine < Rails::Engine
     isolate_namespace Tcramer
   end
 end
