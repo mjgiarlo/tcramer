@@ -102,6 +102,7 @@ module Tcramer
     selected_ism = ISMS.sample
     # 80% chance of returning string unzalgoized
     return selected_ism if Kernel.rand(5).positive?
+
     Zalgo.he_comes(selected_ism)
   end
 
